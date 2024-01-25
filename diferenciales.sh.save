@@ -1,4 +1,0 @@
-j#!/bin/bash fecha=$(date +%Y-%m-%d) hora=$(date +%H:%M:%S) cp 
-total_ref.st dif_ref.st backup="backup_dif_"$fecha"_"$hora tar -cvzf 
-$backup.tar.gz $1 -g dif_ref.st --force-local cp dif_ref.st inc_ref.st
-4º
